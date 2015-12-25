@@ -1,5 +1,9 @@
 label scene2:
 
+    scene black with Pause(1)
+
+    scene grass with fade
+
     nvl clear
 
     nar "I raise my head to get a better view of the rolling hills—a picturesque scene; a vista of the beauty of nature. Well, 'beauty' is a slight exaggeration, these days. It’s sort of like if you spilled some paint-thinner on your mother's favourite watercolour painting, dragged it to the bathtub, and scrubbed it all off: a bunch of the colour spirals down the drain, and all you're left with is a grungy brown patina clinging to a frame of laminated wood. It’s kind of drab, is what I’m saying."
@@ -96,15 +100,17 @@ label scene2:
 
     nar "And I haven't seen a single critter either. It’s eerily quiet, as if the forest is... dying?"
 
-    ash "..."
+    nar "\"...\""
 
-    "I immediately pick up my pace. The outskirts of the forest have nothing to offer. But I know there’s a place deeper in the forest capable of resisting this mysterious blight. I have to see that for myself."
+    nar "I immediately pick up my pace. The outskirts of the forest have nothing to offer. But I know there’s a place deeper in the forest capable of resisting this mysterious blight. I have to see that for myself."
 
-    "..."
+    nvl clear
 
-    "... ..."
+    nar "..."
 
-    "... ... ..."
+    nar "... ..."
+
+    nar "... ... ..."
 
     nvl clear
 
@@ -112,7 +118,11 @@ label scene2:
 
     nar "I keep trudging forward. One way or the other, I’ll find out the truth of the matter..."
 
-    "...!"
+    nar "\"...!\""
+
+    scene black with Pause(1)
+
+    scene nobg with fade
 
     nar "A clearing, but... it’s different."
 
@@ -234,6 +244,14 @@ label scene2:
 
 label scene2part2:
 
+    stop music
+
+    scene black with Pause(1)
+
+    scene nobg with fade
+    
+    play music "music/Turnip Fairy Credits Sequence (Reminisce).ogg" fadein 2
+
     nvl clear
 
     nar "It’s certainly a turnip flower."
@@ -304,9 +322,15 @@ label scene2part2:
 
 label scene2part3:
 
-    nvl clear
+    stop music
+
+    scene black with Pause(1)
 
     scene nobg with fade
+    
+    play music "music/107.ogg" fadein 2
+
+    nvl clear
 
     "It's twilight, between night and morning, or between evening and night. I can't tell. I'm in a tent, and everything looks blue around me."
 
