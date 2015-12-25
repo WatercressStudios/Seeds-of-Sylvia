@@ -1,6 +1,12 @@
 label scene4:
 
+    stop music
+
+    scene black with Pause(1)
+
     scene nobg with fade
+
+    play music "music/83.ogg" fadein 2
 
     "Something’s just not right this morning."
 
@@ -138,6 +144,8 @@ label scene4:
     "It’s amazing how your life can just turn completely upside-down in under three days."
 
     "With the flower to my back, I do my best to point my spear menacingly in the general direction of where I expect the Professor to emerge. Of course, I have no way of actually knowing where he actually will—and this clearing laid out the way it is, I’m put in the unenviable position of having to guard the turnip three hundred sixty degrees."
+
+    stop music fadeout 2
 
     sib "Ashley."
 
@@ -307,6 +315,8 @@ label scene4:
 
     "They’re running around, screaming, blending into the buzzing of the bees to create an absolute crescendo of alarmed noise, and then it breaks off like a star, the professor and his men darting off into the forest as the giant swarm of bees give chase."
 
+    stop sound fadeout 2
+
     "As the cacophonous atmosphere gives itself away to a deafening silence, the forest once again becomes an island in a far away land. The discordant buzzing of the bees, the pained cries of scientists and the shouting of the security goons fades away into the nothingness. It's as if the human interlopers had never existed at all."
 
     "Sybil kneels over me, the relief evident on my face now that the electricity no longer has me in it's painful grip. She grabs the wires and yanks the electrodes free and tosses them aside, concern furrowing her brow as she looks into my tired eyes."
@@ -321,11 +331,16 @@ label scene4:
 
     sib "Welcome back to reality. Shocking, I know."
 
+    play music "music/107.ogg" fadein 2
+
     "I can’t tell if it was the after-effects from the taser or the natural ebb and flow of the energy emanating from the turnip, but I feel a thrum, an almost imperceptible vibration starting to rise above the ambience of this place. My attention's drawn to the turnip, as though it were calling to me, voiceless yet with discernable intent."
 
     "Then it finds its voice."
 
     flo "Ashley, my love, I fear that soon I shall draw my final breaths. It is time."
+
+    show flohopeless 
+    with dissolve
 
     "Sylvia appears to me then, hovering above the turnip fully formed, feminine in body and in visage."
 
@@ -337,6 +352,9 @@ label scene4:
 
     "Sibyl sees that my attention has been drawn relentlessly to the turnip, and scoffs."
 
+    hide flohopeless 
+    show floresigned 
+
     sib "Seriously? You spend two whole days staring at that turnip, nose-to-nose with nature, floating in the lotus position communing with... "
 
     "Her voice trails off. Her tone changes."
@@ -347,6 +365,9 @@ label scene4:
 
     "Sibyl's completely unaware of the maiden floating in front of us, but she's clearly taken notice of the turnip’s unnatural luminescence."
 
+    hide floresigned
+    show flosweetsmile 
+
     sib "Ash, tell me that you see a glowing turnip. Tell me I’m not crazy... Then again, a few minutes ago you were going to stab everyone with a pocket knife taped to a rake handle. On second thought, never mind."
 
     "I speak without speaking aloud, my thoughts and emotions flowing out from me, focusing on Sylvia."
@@ -355,19 +376,43 @@ label scene4:
 
     "I suddenly feel a rush of crushing guilt and failure. I'm just not a warrior. I don’t know what to do in the face of inexorable humanity. This special place, perhaps the last in the world, is defenseless save for me. And I've failed."
 
+    hide flosweetsmile
+    show flopeaceful 
+
     flo "All things have their time, Ash. The cycle of this world takes many forms. My part is the progression of life, season to season, through drought and plenty. Tomorrow beckons, and I must cease to be in this place, and return to the river of the world. It has been the way of things since life was forged in water and smoke. You have failed at nothing, child. You stood where others would have fallen, the sapling straining against the strongest storm." 
 
+    hide flopeaceful
+    show flolistening 
+
     ash "But you're leaving! Doesn't that mean this place will die anyway? Everyone thinks that I’m crazy; they can’t see what I see, can’t feel what I feel. They refuse to believe what we know to be true... If they could only allow themselves to see, they could help you save this world!"
+
+    hide flolistening
+    show floeyesnarrow 
      
     flo "Humanity is a part of this world as much as I, child of the ash-tree meadows."
 
-    flo "They must find their own way or perish,  as must the trees in the forest, the fish in the sea, the birds in the sky... Gaea’s caress is softly felt. There is no cause for excessive intervention."
+    hide floeyesnarrow
+    show flocalm 
+
+    flo "They must find their own way or perish, as must the trees in the forest, the fish in the sea, the birds in the sky... Gaea’s caress is softly felt. There is no cause for excessive intervention."
+
+    hide flocalm
+    show floprayzoom 
 
     flo "But I will allow you a kindness."
 
+    hide floprayzoom
+    show flosweetsmilezoom 
+
     flo "Balance is not a sound but a symphony. No species can ever truly be in complete harmony with another. Always, there are changes. Always, there are losses. Tomorrow must never be the same as today."
 
+    hide flosweetsmilezoom
+    show floafraidzoom 
+
     flo "However, when all the world sings together in regret, one may undo that which has been done."
+
+    hide floafraidzoom
+    show flohopefulzoom 
 
     flo "Hold out your hands." 
 
@@ -375,7 +420,14 @@ label scene4:
 
     "The turnip’s glow intensifies, a radiance of life like that of the sun on the first warm day of all creation. The pale blue flowers slowly close their petals, dim, and fall. In their place remain small clusters of seeds, the gifts of life that so many plants have passed on as their inheritance, season after season, time and time again. The seeds swell and darken, with preternatural swiftness. Then they begin to fall into my cupped hands, a steady, gentle rain of promise for the next generation. For our future."
 
+    hide flohopefulzoom
+    show flotenderzoom 
+
     flo "Hope is always at the bottom of the box. As long as the river flows, nothing is ever truly lost."
+
+    hide flotenderzoom 
+    with dissolve
+    stop music fadeout 2
 
     "And with that, she is gone. The forest seems to calm itself, a slight breeze ruffling the leaves overhead. The air around us becomes warm, but not uncomfortably so. It embraces us, lovingly, like a mother would a crying child before she's gone forever."
 
@@ -421,11 +473,13 @@ label scene4:
 
     "Sibyl follows behind me as I depart, falling silent, short of a witty retort."
 
-    "..."
+    stop music
 
-    "... ..."
+    scene black with Pause(1)
 
-    "... .... ..."
+    scene nobg with fade
+
+    play music "music/83.ogg" fadein 2
 
     "A clink rings through the bar as my glass hits the table. The alcohol warms my body, soothing my nerves after today. I channel my facade, trying to create an air of confidence and happiness."
 
@@ -564,5 +618,7 @@ label scene4:
     "So all I can do is remember Sylvia—remember her beauty, remember the love she felt for me, remember her vision—and try to carry it out in my words and deeds. Do what I can, with what I have."
 
     "\"{i}When you wake in the day, think of my need. Think of the last flower, and the last seed.{/i}\""
+
+    stop music fadeout 1
 
     jump credits

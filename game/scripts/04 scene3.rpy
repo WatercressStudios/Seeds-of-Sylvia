@@ -1,6 +1,12 @@
 label scene3:
 
+    stop music
+
+    scene black with Pause(1)
+
     scene nobg with fade
+
+    play music "music/83.ogg" fadein 2
 
     "When I awake, I realize quickly that I've ended up sleeping in much longer than I anticipated. Scrambling to get out of the tent, I sneak a peek at the flower."
 
@@ -40,6 +46,8 @@ label scene3:
 
     play sound "sfx/shovel.ogg"
 
+    queue sound [ "sfx/shovel.ogg", "sfx/shovel.ogg" ]
+
     "*CLANG!CLANG!CLANG!*"
 
     "And then she hit it again. And again. And again. I feel like saying, \"Three strikes, and you're out\", but I forbear."
@@ -51,6 +59,8 @@ label scene3:
     "She pauses briefly, shooting me the kind of look that would be tipped with the poison of an Amazonian dart frog. She growls, almost ferally, before taking a few more swings at the tent."
 
     play sound "sfx/shovel.ogg"
+
+    queue sound [ "sfx/shovel.ogg", "sfx/shovel.ogg", "sfx/shovel.ogg", "sfx/shovel.ogg" ]
 
     "*CLANG!CLANG!CLANG!CLANG!CLANG!*"
 
@@ -90,6 +100,8 @@ label scene3:
 
     ash "Honestly? I haven't taken that good a look at it. I just woke up, and... uh?"
 
+    play sound "sfx/Buzz.ogg" fadein 2 loop
+
     "I glance over to get a look at it."
 
     ash "We... we found one bee last time, right?"
@@ -105,6 +117,8 @@ label scene3:
     sib "Well I'll be stuffed, Ash! You think there might be a colony somewhere?"
 
     ash "I'd imagine so. Do you want to take a look around on foot and see?"
+
+    stop sound
 
     "She shoots me a look."
 
@@ -252,7 +266,13 @@ label scene3:
 
 label scene3part2:
 
+    stop music
+
+    scene black with Pause(1)
+
     scene nobg with fade
+    
+    play music "music/107.ogg" fadein 2
 
     "There's a shadow over all the earth's bright lands. Like a hawk, or like a floating seed, I feel a blight spread over all the world. I hear a voice cry out."
 
@@ -271,18 +291,24 @@ label scene3part2:
     flo "Your poet Shakespeare once asked that question. \"Who is Sylvia? What is she, that all the swains adore her?\""
 
     show floworried
-    with fade
+    with dissolve
 
     "I see an image of a bloom, blue edged with gold, pale green with the glow of vitality, hooded with the shadow of secrets. There's much of the Lady about her, that presence nobody understands but whom everyone knows. A gown of iridescent hue bells out from her waist, illuminating the grass and wildflowers around her. Enlightenment. And then, I know."
 
+    hide floworried
     show flosweetsmile
-    with dissolve
 
     "I am loved, despite what my world, the world of men, has done. It's something hard to believe, that after disappointment and ravishment, after horror and pain and depredation, that such love can still remain. It is a selfless love, and it offers a gift."
+
+    hide flosweetsmile
+    show flocrying
 
     flo "There is so little time remaining, child of the earth, seed of the ash, seeker in the darkness. I will not live forever; nothing does, and all must die. But death need not be the end. Death has always been a beginning—for something else, for someone else. That is how it should be. But what comes to life must have soul, must have the awareness of mortal things. Don't let the made things, the things of iron and clay, have the victory."
 
     ash "How can I stop them?"
+
+    hide flocrying
+    show flohopeful
 
     flo "Hope is always at the bottom of the box. The legends tell you true—the knights sit slumbering in the hidden caves, for the time when hope will rise again. And if hope never comes, then they will sleep forever."
 
@@ -290,13 +316,23 @@ label scene3part2:
 
     $ turname = "Sylvia"
 
+    hide flohopeful
+    show flosweetsmile
+
     flo "I am Sylvia, last of this generation of the earth. I have waited long, tried to hold out a last glimmer of that hope. But there is next to no time left."
 
     "I see the end. No! It mustn't end this way! I see steel locusts in a cloud of wings, eating everything, producing nothing. I see the motorised maggots of the human-engineered swarm: 'the bones picked clean and the clean bones gone.'"
 
     "\"We shall be one with the man in the wind and the west moon,\" my magpie brain recalls from the words of the last bard of Wales. And then, nothing but the barrenness of the earth, as grey as the moon, and as empty."
 
+    hide flosweetsmile
+    show flosmile
+    
+
     flo "Do what you can, with what you have."
+
+    hide flosmile 
+    with dissolve
 
     "And then, I blunder back towards the waking world."
 
