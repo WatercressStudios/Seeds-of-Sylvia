@@ -1,5 +1,9 @@
 label scene2:
 
+    scene black with Pause(1)
+
+    scene grass with fade
+
     nvl clear
 
     nar "I raise my head to get a better view of the rolling hills—a picturesque scene; a vista of the beauty of nature. Well, 'beauty' is a slight exaggeration, these days. It’s sort of like if you spilled some paint-thinner on your mother's favourite watercolour painting, dragged it to the bathtub, and scrubbed it all off: a bunch of the colour spirals down the drain, and all you're left with is a grungy brown patina clinging to a frame of laminated wood. It’s kind of drab, is what I’m saying."
@@ -96,15 +100,17 @@ label scene2:
 
     nar "And I haven't seen a single critter either. It’s eerily quiet, as if the forest is... dying?"
 
-    ash "..."
+    nar "\"...\""
 
-    "I immediately pick up my pace. The outskirts of the forest have nothing to offer. But I know there’s a place deeper in the forest capable of resisting this mysterious blight. I have to see that for myself."
+    nar "I immediately pick up my pace. The outskirts of the forest have nothing to offer. But I know there’s a place deeper in the forest capable of resisting this mysterious blight. I have to see that for myself."
 
-    "..."
+    nvl clear
 
-    "... ..."
+    nar "..."
 
-    "... ... ..."
+    nar "... ..."
+
+    nar "... ... ..."
 
     nvl clear
 
@@ -113,6 +119,8 @@ label scene2:
     nar "I keep trudging forward. One way or the other, I’ll find out the truth of the matter..."
 
     nar "\"...!\""
+
+    scene black with Pause(1)
 
     scene nobg with fade
 
@@ -236,6 +244,14 @@ label scene2:
 
 label scene2part2:
 
+    stop music
+
+    scene black with Pause(1)
+
+    scene nobg with fade
+    
+    play music "music/Turnip Fairy Credits Sequence (Reminisce).ogg" fadein 2
+
     nvl clear
 
     nar "It’s certainly a turnip flower."
@@ -306,9 +322,15 @@ label scene2part2:
 
 label scene2part3:
 
-    nvl clear
+    stop music
+
+    scene black with Pause(1)
 
     scene nobg with fade
+    
+    play music "music/107.ogg" fadein 2
+
+    nvl clear
 
     "It's twilight, between night and morning, or between evening and night. I can't tell. I'm in a tent, and everything looks blue around me."
 
@@ -334,9 +356,7 @@ label scene2part3:
 
     flo "In a while, you will awake, and you won't have me with you then. So listen to me, son of the ash-tree meadows."
 
-    ash "Listening." 
-
-    "I want to hear more of the music of her voice. I look around. There's nothing there. Where is she, and why can't I move? I'm filled with fear."
+    ash "Listening," # I reply, because I want to hear more of the music of her voice. I look around. There's nothing there. Where is she, and why can't I move? I'm filled with fear."
 
     flo "The bees you seek, they come to me, because they know. But there's only one of me, and that's why that's all there is. The bees, they won't save us that way."
 
@@ -364,7 +384,7 @@ label scene2part3:
 
     "The voice is that of a young woman, I think. It's dry and yet a little sweet, the kind of voice I've always wanted from a lover or a friend."
 
-    flo "I'm old.  Amongst oak and thorn, I remain alive, but that is all. Living is sometimes not the same as life."
+    flo "I'm old," # says the voice mournfully. "Amongst oak and thorn, I remain alive, but that is all. Living is sometimes not the same as life."
 
     "I'm dreaming again, I must be. The blue light is all around me, calm and peaceful, and just a little sad now, maybe a little more hopeful. That's not reasonable. It's not logical that a colour should have moods, right? That's what Sibyl would say. But I think I'm beginning to understand."
 
@@ -372,17 +392,13 @@ label scene2part3:
 
     "Wait. That's not what I'm thinking, is it? It's what something is thinking with me."
 
-    flo "Do you love bees?" 
-
-    "The tinkling whisper of the half-light asks."
+    flo "Do you love bees?" # the tinkling whisper of the half-light asks.
 
     ash "I... do." 
 
     "There's surprise in my voice. I've never thought of loving bees before. Their pleasant hum, their gold-glinting fur in the bright sun, and the dark chitinous bands that seem to hold their radiance together like a present made for a goddess... 'melissa', the Greeks would have said, 'melissa' — sweet, comfortable, the sound of summer."
 
-    ash "Bees are very me."
-
-    ash "They have dances and patterns and they don't always seem tied down by reason and logic."
+    ash "Bees are very me," # I continue, not sure why I'm continuing. "They have dances and patterns and they don't always seem tied down by reason and logic."
 
     "There's a smile in my head—a pale blue smile." 
 
@@ -392,7 +408,7 @@ label scene2part3:
 
     flo "... and sometimes, seeds."
 
-    ash "Seeds?"
+    ash "Seeds?" # I ask. 
 
     "Yes, I think, seeds! Where are the seeds?"
 

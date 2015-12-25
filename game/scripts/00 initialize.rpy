@@ -23,11 +23,13 @@
 
 # Now, for the fun stuff.
 
-# Characters
+#NVL Characters
 define nar = Character(None, kind=nvl)
 define anr = Character('News Anchor', kind=nvl, color='#8c6b48')
-define ann = Character('News Anchor', color='#8c6b48', show_two_window=True)
 define dor = Character('Dr. Mördorj', kind=nvl, color='#a62e1f')
+
+# Characters
+define ann = Character('News Anchor', color='#8c6b48', show_two_window=True)
 define mor = Character('Dr. Mördorj', color='#a62e1f', show_two_window=True)
 define ash = Character('Ashley', color='#595c2d', show_two_window=True)
 define sib = Character('Sibyl', color='#5b758e', show_two_window=True)
@@ -62,7 +64,7 @@ image floeyesnarrow = "sprites//flo/eyesnarrow.png"
 image floforelorn = "sprites/flo/forelorn.png"
 image flohappy = "sprites/flo/happy.png"
 image flohopeful = "sprites/flo/hopeful.png"
-image flohopless = "sprites/flo/hopeless.png"
+image flohopeless = "sprites/flo/hopeless.png"
 image flolistening = "sprites/flo/listening.png"
 image flopeaceful = "sprites/flo/peaceful.png"
 image flopleasant = "sprites/flo/pleasant.png"
@@ -87,7 +89,7 @@ image floeyesnarrowzoom = "sprites//flo/zoom/eyesnarrow.png"
 image floforelornzoom = "sprites/flo/zoom/forelorn.png"
 image flohappyzoom = "sprites/flo/zoom/happy.png"
 image flohopefulzoom = "sprites/flo/zoom/hopeful.png"
-image flohoplesszoom = "sprites/flo/zoom/hopeless.png"
+image flohopelesszoom = "sprites/flo/zoom/hopeless.png"
 image flolisteningzoom = "sprites/flo/zoom/listening.png"
 image flopeacefulzoom = "sprites/flo/zoom/peaceful.png"
 image flopleasantzoom = "sprites/flo/zoom/pleasant.png"
