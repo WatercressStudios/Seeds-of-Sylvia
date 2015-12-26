@@ -3,6 +3,7 @@ label scene1:
     scene black with Pause(1)
 
     scene nobg with fade
+
     play music "music/83.ogg"
 
     sib "Hey, I was watching that!"
@@ -68,7 +69,6 @@ label scene1:
     sib "A forest to what?"
 
     ash "Rake some yards! Now, pack. Your. {i}Bags.{/i}"
-
 
     jump scene1part2
 

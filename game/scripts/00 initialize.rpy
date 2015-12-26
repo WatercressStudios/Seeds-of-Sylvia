@@ -6,13 +6,16 @@
 # Blank
 # Brythain
 # Electro
+# EmpireRuled
 # Leaty
+# TheForeverLoneWolf
 # Tutty
 # Valjean
 
 # Art by:
 # Eddie
 # Erica
+# InstantRiot
 
 # Music by:
 # Numb
