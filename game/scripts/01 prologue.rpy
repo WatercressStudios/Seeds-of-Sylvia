@@ -1,5 +1,7 @@
 label prologue:
-        
+    
+    scene black with Pause(1)
+    
     scene tv with fade
     with Pause(1)
 

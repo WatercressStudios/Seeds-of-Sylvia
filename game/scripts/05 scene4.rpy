@@ -427,6 +427,7 @@ label scene4:
 
     hide flotenderzoom 
     with dissolve
+    
     stop music fadeout 2
 
     "And with that, she is gone. The forest seems to calm itself, a slight breeze ruffling the leaves overhead. The air around us becomes warm, but not uncomfortably so. It embraces us, lovingly, like a mother would a crying child before she's gone forever."

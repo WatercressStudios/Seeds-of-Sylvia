@@ -356,7 +356,9 @@ label scene2part3:
 
     flo "In a while, you will awake, and you won't have me with you then. So listen to me, son of the ash-tree meadows."
 
-    ash "Listening," # I reply, because I want to hear more of the music of her voice. I look around. There's nothing there. Where is she, and why can't I move? I'm filled with fear."
+    ash "Listening." 
+
+    "I want to hear more of the music of her voice. I look around. There's nothing there. Where is she, and why can't I move? I'm filled with fear."
 
     flo "The bees you seek, they come to me, because they know. But there's only one of me, and that's why that's all there is. The bees, they won't save us that way."
 
@@ -384,7 +386,7 @@ label scene2part3:
 
     "The voice is that of a young woman, I think. It's dry and yet a little sweet, the kind of voice I've always wanted from a lover or a friend."
 
-    flo "I'm old," # says the voice mournfully. "Amongst oak and thorn, I remain alive, but that is all. Living is sometimes not the same as life."
+    flo "I'm old.  Amongst oak and thorn, I remain alive, but that is all. Living is sometimes not the same as life."
 
     "I'm dreaming again, I must be. The blue light is all around me, calm and peaceful, and just a little sad now, maybe a little more hopeful. That's not reasonable. It's not logical that a colour should have moods, right? That's what Sibyl would say. But I think I'm beginning to understand."
 
@@ -392,15 +394,19 @@ label scene2part3:
 
     "Wait. That's not what I'm thinking, is it? It's what something is thinking with me."
 
-    flo "Do you love bees?" # the tinkling whisper of the half-light asks.
+    flo "Do you love bees?" 
+
+    "The tinkling whisper of the half-light asks."
 
     ash "I... do." 
 
     "There's surprise in my voice. I've never thought of loving bees before. Their pleasant hum, their gold-glinting fur in the bright sun, and the dark chitinous bands that seem to hold their radiance together like a present made for a goddess... 'melissa', the Greeks would have said, 'melissa' — sweet, comfortable, the sound of summer."
 
-    ash "Bees are very me," # I continue, not sure why I'm continuing. "They have dances and patterns and they don't always seem tied down by reason and logic."
+    ash "Bees are very me."
 
-    "There's a smile in my head—a pale blue smile." 
+    ash "They have dances and patterns and they don't always seem tied down by reason and logic."
+
+    "There's a smile in my head — a pale blue smile." 
 
     flo "At the bottom of the old box, there was always hope."
 
@@ -408,7 +414,7 @@ label scene2part3:
 
     flo "... and sometimes, seeds."
 
-    ash "Seeds?" # I ask. 
+    ash "Seeds?"
 
     "Yes, I think, seeds! Where are the seeds?"
 

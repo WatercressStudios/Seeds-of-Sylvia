@@ -327,7 +327,6 @@ label scene3part2:
 
     hide flosweetsmile
     show flosmile
-    
 
     flo "Do what you can, with what you have."
 
