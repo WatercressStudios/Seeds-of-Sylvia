@@ -1,5 +1,5 @@
-# Turnip Love
-# Copyright 2015, The Studio Formerly Known as Watercress
+# Seeds of Sylvia
+# Copyright 2015, Watercress
 # Created for the Lemmasoft Forums 2015 Secret Santa
 
 # Written by:
