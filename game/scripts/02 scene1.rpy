@@ -2,9 +2,9 @@ label scene1:
 
     scene black with Pause(1)
 
-    scene nobg with fade
+    scene cabin with fade
 
-    play music "music/83.ogg"
+    play music "music/96LoopVer.ogg"
 
     sib "Hey, I was watching that!"
 
@@ -70,13 +70,17 @@ label scene1:
 
     ash "Rake some yards! Now, pack. Your. {i}Bags.{/i}"
 
+    stop music
+
     jump scene1part2
 
 label scene1part2:
 
     scene black with Pause(1)
 
-    scene grass with fade
+    play music "music/120.ogg" fadein 2
+
+    scene forestoutskirts with fade
     with Pause(1)
 
     sib "I swear to God, if I end up contracting malaria because of you, I'll sue you."
@@ -156,5 +160,7 @@ label scene1part2:
     sib "...Please tell me you're joking."
 
     ash "Look forward to my next dissertation."
+
+    stop music
 
     jump scene2

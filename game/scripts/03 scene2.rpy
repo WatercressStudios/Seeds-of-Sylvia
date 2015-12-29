@@ -2,7 +2,9 @@ label scene2:
 
     scene black with Pause(1)
 
-    scene grass with fade
+    play music "music/83.ogg" fadein 2
+
+    scene forestpath with fade
 
     nvl clear
 
@@ -122,7 +124,7 @@ label scene2:
 
     scene black with Pause(1)
 
-    scene nobg with fade
+    scene grass with fade
 
     nar "A clearing, but... it’s different."
 
@@ -168,7 +170,7 @@ label scene2:
 
     "Sibyl storms into the clearing like a particularly annoyed tourist visiting a Tibetan monastery, and much to the same effect; the tranquil air of the clearing suddenly seems ordinary as any other."
 
-    play music "music/83.ogg" fadein 0.5
+    play music "music/96LoopVer.ogg" fadein 0.5
 
     sib "I thought you said you were gonna phone it in once you found the bee!"
 
@@ -248,7 +250,7 @@ label scene2part2:
 
     scene black with Pause(1)
 
-    scene nobg with fade
+    scene turnip with fade
     
     play music "music/Turnip Fairy Credits Sequence (Reminisce).ogg" fadein 2
 
@@ -274,7 +276,11 @@ label scene2part2:
 
     nvl clear
 
+    scene black with fade
+
     nar "\n\n\n\n\n\nTime to come up with a plan."
+
+    scene grass with fade
 
     nvl clear
 
@@ -326,7 +332,7 @@ label scene2part3:
 
     scene black with Pause(1)
 
-    scene nobg with fade
+    scene grassnight with fade
     
     play music "music/107.ogg" fadein 2
 

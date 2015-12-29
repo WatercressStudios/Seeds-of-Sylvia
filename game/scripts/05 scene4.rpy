@@ -4,9 +4,9 @@ label scene4:
 
     scene black with Pause(1)
 
-    scene nobg with fade
+    scene grass with fade
 
-    play music "music/83.ogg" fadein 2
+    play music "music/130LoopVer.ogg" fadein 2
 
     "Something’s just not right this morning."
 
@@ -144,8 +144,6 @@ label scene4:
     "It’s amazing how your life can just turn completely upside-down in under three days."
 
     "With the flower to my back, I do my best to point my spear menacingly in the general direction of where I expect the Professor to emerge. Of course, I have no way of actually knowing where he actually will—and this clearing laid out the way it is, I’m put in the unenviable position of having to guard the turnip three hundred sixty degrees."
-
-    stop music fadeout 2
 
     sib "Ashley."
 
@@ -285,6 +283,8 @@ label scene4:
 
     "Through my blurred, spotty vision, I can still see the brilliant blue of the turnip flower, but with the professor’s furious digging, she seems to fade... or maybe it’s me that’s fading."
 
+    scene black with irisin
+
     "I guess this is the end..."
 
     "I’m so sorry, Sylvia. I brought this upon you, and now all is probably lost..."
@@ -306,6 +306,8 @@ label scene4:
     mor "Everybody calm down, don’t... Augh! Great Scott!"
 
     "...Bees?"
+
+    scene grass with irisout
 
     "The arm around my neck jerkily pulls away, allowing me to gasp for breath—my vision is faded and blurry, my mind foggy, but color and definition slowly start to come back to me."
 
@@ -478,7 +480,7 @@ label scene4:
 
     scene black with Pause(1)
 
-    scene nobg with fade
+    scene bar with fade
 
     play music "music/83.ogg" fadein 2
 
