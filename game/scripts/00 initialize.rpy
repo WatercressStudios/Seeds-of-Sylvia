@@ -43,9 +43,16 @@ define copb = Character('Thug', color='#57452f', show_two_window=True)
 # Backgrounds
 image nobg = "bg/nobg.png"
 image grass = "bg/grass.png"
+image grassnight = "bg/grassnight.png"
+image bar = "bg/bar.png"
+image forestoutskirts = "bg/forestoutskirts.png"
+image forestpath = "bg/forestpath.png"
+image cabin = "bg/cabinint.png"
+
 
 # CGs
 image tv = "cg/tv.png"
+image turnip = "cg/turnip.png"
 
 # VFX
 image watercress = "vfx/watercress.png"

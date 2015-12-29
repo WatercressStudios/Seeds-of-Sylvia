@@ -4,9 +4,9 @@ label scene3:
 
     scene black with Pause(1)
 
-    scene nobg with fade
+    scene grass with fade
 
-    play music "music/83.ogg" fadein 2
+    play music "music/96LoopVer.ogg" fadein 2
 
     "When I awake, I realize quickly that I've ended up sleeping in much longer than I anticipated. Scrambling to get out of the tent, I sneak a peek at the flower."
 
@@ -269,8 +269,6 @@ label scene3part2:
     stop music
 
     scene black with Pause(1)
-
-    scene nobg with fade
     
     play music "music/107.ogg" fadein 2
 
