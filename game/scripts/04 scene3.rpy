@@ -269,8 +269,6 @@ label scene3part2:
     stop music
 
     scene black with Pause(1)
-
-    scene nobg with fade
     
     play music "music/107.ogg" fadein 2
 
