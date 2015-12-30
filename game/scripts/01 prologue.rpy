@@ -1,6 +1,10 @@
 label prologue:
     
     scene black with Pause(1)
+
+    play music "music/119IntroVer.ogg"
+
+    queue music "music/119LoopVer.ogg"
     
     scene tv with fade
     with Pause(1)
@@ -35,7 +39,7 @@ label prologue:
 
     dor "We’ve had the best scientific minds working on this problem for three decades. Even with additional funding, it seems unlikely we’ll figure out how to save the bees while there are still bees to save."
      
-    anr "But while there are still living bees on the planet, why would it be bad just to try?"
+    anr "But while there are still living bees on the planet, why would it be bad to try?"
      
     dor "There are indeed still living bees, certainly, but the sad reality is that we don’t even know where most of them are. Most of the remaining one percent of living honeybees is missing. They’re lost somewhere in the wilderness, if they even exist at all. And while we’re wasting time, manpower and resources trying to find them, human beings are starving."
 
@@ -82,6 +86,8 @@ label prologue:
     anr "An interesting view, to be sure. We thank you again for your time, Dr. Mördorj. That book again is—"
 
     play sound "sfx/TV OFF 1.ogg"
+
+    stop music
 
     "There is a click, and the television screen switches off."
 

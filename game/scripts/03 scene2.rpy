@@ -26,7 +26,7 @@ label scene2:
 
     ash "Bears. Quicksand. Particularly pointy tree branches. Mouthy scientists."
 
-    sib "Ugh, there's won't be quicksand in- oh, fantastic, we lost it."
+    sib "Ugh, there won't be quicksand in- oh, fantastic, we lost it."
 
     "I look off into the distance again.  True to her word, the bee just fluttered off to God knows where."
 
@@ -120,8 +120,6 @@ label scene2:
 
     nar "I keep trudging forward. One way or the other, I’ll find out the truth of the matter..."
 
-    nar "\"...!\""
-
     scene black with Pause(1)
 
     scene grass with fade
@@ -150,6 +148,8 @@ label scene2:
 
     play music "music/107.ogg" fadein 0.5
 
+    scene turnip with fade
+
     nar "It’s a flower. Psoralea esculenta, to be more precise—the prairie turnip. It’s blooming beautifully, but the flowering’s odd. It has a distinct blue hue, like the sky just before dawn; a color I’ve grown to know intimately accustomed to over countless sleepless nights."
 
     nar "...And then I see it."
@@ -165,6 +165,8 @@ label scene2:
     stop music
 
     sib "Hey, you!"
+
+    scene grass with fade
 
     "...And then it’s over. Hearing leaves crunch in the distance, I rise to my feet."
 
@@ -216,7 +218,7 @@ label scene2:
 
     ash "-Probably figure out some way to make his replacements better? Thanks, but no thanks. I’d prefer to save the patient, not harvest it for parts."
 
-    sib "What...! How does—the fuck are you even talking about? What’s your plan here, Ashley? How is leaving this unreported helping anyone?"
+    sib "What...?! How does—the fuck are you even talking about? What’s your plan here, Ashley? How is leaving this unreported helping anyone?"
 
     ash "I can figure out a way to expand it! We’re taking a risk just being here, Sibyl. These kinds of places are extremely delicate. It won’t survive that kind of rigorous observation, and then we’ll lose the only place in America, maybe even the world, where there have been confirmed wild honeybee sightings." 
 
@@ -246,7 +248,7 @@ label scene2:
 
 label scene2part2:
 
-    stop music
+    stop music fadeout 1
 
     scene black with Pause(1)
 
@@ -288,9 +290,11 @@ label scene2part2:
 
     ash "Ah! Here we are."
 
+    nvl clear
+
     nar "I haul out a waterproof camouflage tarpaulin, folded up in a neat pile, along with some spikes and poles. With all these, I could set up a tent next to the flower."
 
-    nar "I glance over to the flower, nodding affirmatively. I know my mission. If Sibyl’s planning to uproot that turnip, she'll have to get through this me first."
+    nar "I glance over to the flower, nodding affirmatively. I know my mission. If Sibyl’s planning to uproot that turnip, she'll have to get through me first."
 
     nar "...Or she could catch me while I was inside the tent. Huh. Hadn't thought of that. I briefly consider tying myself up to the plant like protesters tie themselves to trees, but quickly dismiss the thought."
 
@@ -316,7 +320,7 @@ label scene2part2:
 
     nar "Given careful rationing, it’s probably enough to tide me over two days, but eventually I'll need to resupply. Let’s consider my options: I could forage locally, but back in the scouts I always seemed to converge upon the incredibly toxic plants. And, of course, if I abandon my post, it'd be the perfect time for Sibyl to come by and..."
 
-    ash "..."
+    nar "..."
 
     nar "Well, we'll tackle that hurdle when it comes. Stressing about it will only kill my funk at this point."
 
@@ -384,7 +388,7 @@ label scene2part3:
 
     "I sit up straight, hitting my head on... nothing. I'm not in the tent at all. I'm outside the tent, which I've bound to the ground facing the cardinal directions, its sealed entrance facing south. Is it morning yet? No. It's cold. What am I doing outside?"
 
-    "I unseal the tent, crawl back in, and try for a few more hours of sleep. On a sudden impulse, I flash my maglite on briefly. The flower's still there. It looks beautiful, and yet baleful; it looks sad, and yet hopeful. It's the last thought I have before I fall back into slumber."
+    "I unseal the tent, crawl back in, and try for a few more hours of sleep. On a sudden impulse, I briefly flash my maglite on. The flower's still there. It looks beautiful, and yet baleful; it looks sad, and yet hopeful. It's the last thought I have before I fall back into slumber."
 
     ash "..."
 

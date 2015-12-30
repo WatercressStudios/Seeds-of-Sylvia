@@ -6,8 +6,6 @@ label scene4:
 
     scene grass with fade
 
-    play music "music/130LoopVer.ogg" fadein 2
-
     "Something’s just not right this morning."
 
     "There’s... I can’t even place it. Quiet. Absolute quiet. It’s like a disused classroom in the middle of a locked building."
@@ -30,6 +28,8 @@ label scene4:
 
     "The turnip flower appears as healthy as ever, but as much as I’d like to heave a sigh of relief, I know that something’s wrong. Something that Sylvia never prepared me for during any of our discussions."
 
+    show turnip with dissolve
+
     "I kneel into the dirt, inspecting the plant so closely the petals almost tickle my nose, but try as I might I can’t locate any visual evidence this turnip isn’t as healthy as ever—and though Sibyl may denigrate my contributions to science, I have the same background in botany she does."
 
     ash "We’re good, right?"
@@ -41,6 +41,8 @@ label scene4:
     "Sibyl." 
 
     "Damn it! How could I have forgotten?"
+
+    hide turnip with dissolve
 
     "Two days, and you can call it in, I’d said. She was as good as her word, but... our last conversation did nothing to persuade her to give me any more time. She probably kept her promise to the second, and then immediately told Professor Mördorj."
 
@@ -62,6 +64,10 @@ label scene4:
 
     mor "Ashley, this is Dr. Mördorj. Are you there?"
 
+    play music "music/130IntroVer.ogg"
+
+    queue music "music/130LoopVer.ogg"
+
     "...And there it is."
 
     ash "Professor—you can’t listen to Sibyl—you can’t—"
@@ -70,7 +76,7 @@ label scene4:
 
     ash "No! Don’t listen to her! You—"
 
-    mor "A discovery of wild honeybees? In our own backyard? And you elected to hide this from the CRIT, and from me, potentially jeopardizing any scientific knowledge that could be gained here? You’re unwell, Ashley. Allow us to get you the help you need. We’re going to collect the specimen whether you like it or not."
+    mor "A discovery of wild honeybees? In our own backyard? And you elected to hide this from the Institute, and from me, potentially jeopardizing any scientific knowledge that could be gained here? You’re unwell, Ashley. Allow us to get you the help you need. We’re going to collect the specimen whether you like it or not."
 
     ash "You can’t come here, Professor!"
 
@@ -90,7 +96,9 @@ label scene4:
 
     "Talk to Sylvia. Tell her what’s happening. Maybe she won’t respond—maybe she already knows—but it’ll clear my head, at least."
 
-    "I crouch back into the tent, standing over the flower, talking into it like it was a microphone even though I doubt that’s how it works."
+    "I crouch next to the flower, talking into it like it was a microphone even though I doubt that’s how it works."
+
+    show turnip with dissolve
 
     ash "Sylvia, I don’t know what to do."
 
@@ -103,7 +111,6 @@ label scene4:
     ash "But... I’m all there is to get through. We... I didn’t have enough time to convince Sibyl to see the truth of things. She means well, but maybe it was an impossible task. She still thinks the Professor’s right."
 
     "I pause, perhaps in a vain hope that I’ll hear her voice, her soothing words, but there’s just a deafening silence."
-
 
     ash "I... look, I’m not a violent person, I don’t think."
 
@@ -125,25 +132,29 @@ label scene4:
 
     ash "Goddess, this is going to be the stupidest thing I’ve ever done."
 
-    "I leave the turnip where she is, rooting through my knapsack for duct tape and my all-purpose knife. Snapping off the forked end of the rake I brought along using the heel of my boot and a particularly jagged rock, I secure the knife to the shaft, blade facing outward, and use the rest of the tape to create what I hope is a serviceable grip."
+    nvl clear
 
-    "A spear. I’ve made a spear. I’m going to defend Sylvia using a spear I made out of crap I happened to have lying around. No, it's not a spear, it's a thorn. A thorn on an oaken staff. Oak, Ash, and Thorn. I laugh like I've lost my marbles."
+    nar "I leave the turnip where she is, rooting through my knapsack for duct tape and my all-purpose knife. Snapping off the forked end of the rake I brought along using the heel of my boot and a particularly jagged rock, I secure the knife to the shaft, blade facing outward, and use the rest of the tape to create what I hope is a serviceable grip."
 
-    "History’s going to make me look like a maniac, isn’t it? Well, what little history this world has left, anyway."
+    nar "A spear. I’ve made a spear. I’m going to defend Sylvia using a spear I made out of crap I happened to have lying around. No, it's not a spear, it's a thorn. A thorn on an oaken staff. Oak, Ash, and Thorn. I laugh like I've lost my marbles."
 
-    "Maybe people like me—people who see the world this way—aren’t meant to exist in these fading times. There’s never been a day in my life I haven’t felt like an anachronism, like my entire worldview was some horrible atavism not meant to survive the modern world."
+    nar "History’s going to make me look like a maniac, isn’t it? Well, what little history this world has left, anyway."
 
-    "If I’d been born back in the days where people actually used spears—out in the woods, in the real, thriving woods of the hunter-gatherers, making medicine in a mortar, carving Ogham into some found piece of deadwood... Maybe then the world would make more sense to me."
+    nar "Maybe people like me—people who see the world this way—aren’t meant to exist in these fading times. There’s never been a day in my life I haven’t felt like an anachronism, like my entire worldview was some horrible atavism not meant to survive the modern world."
 
-    "Or maybe I’d have died a young idiot, just as I’ll quite possibly be doing in a few minutes."
+    nar "If I’d been born back in the days where people actually used spears—out in the woods, in the real, thriving woods of the hunter-gatherers, making medicine in a mortar, carving Ogham into some found piece of deadwood... Maybe then the world would make more sense to me."
 
-    "Sylvia’s flower still sways nobly against the wind, as though blissfully oblivious about what’s coming next—or, more hopefully, aware of something I’m not."
+    nvl clear
 
-    "The Professor and whoever he’s brought along with him will be within eyeshot of the clearing in under a minute, now. I wrack my brain for anything I’ve missed—some brilliant plan I can execute in under thirty seconds—but this isn’t the kind of scenario I’ve ever had to prepare for..."
+    nar "Or maybe I’d have died a young idiot, just as I’ll quite possibly be doing in a few minutes."
 
-    "It’s amazing how your life can just turn completely upside-down in under three days."
+    nar "Sylvia’s flower still sways nobly against the wind, as though blissfully oblivious to what’s coming next — or, more hopefully, aware of something I’m not."
 
-    "With the flower to my back, I do my best to point my spear menacingly in the general direction of where I expect the Professor to emerge. Of course, I have no way of actually knowing where he actually will—and this clearing laid out the way it is, I’m put in the unenviable position of having to guard the turnip three hundred sixty degrees."
+    nar "The Professor and whoever he’s brought along with him will be within eyeshot of the clearing in under a minute, now. I wrack my brain for anything I’ve missed—some brilliant plan I can execute in under thirty seconds—but this isn’t the kind of scenario I’ve ever had to prepare for..."
+
+    nar "It’s amazing how your life can turn completely upside-down in under three days."
+
+    nar "With the flower to my back, I do my best to point my spear menacingly in the general direction of where I expect the Professor to emerge. Of course, I have no way of actually knowing where he actually will—and this clearing laid out the way it is, I’m put in the unenviable position of having to guard the turnip three hundred sixty degrees."
 
     sib "Ashley."
 
@@ -223,9 +234,9 @@ label scene4:
 
     ash "Not all of them and not always. You practically sound upset the bees are alive."
 
-    mor "I’m trying to save the people of this world from starving, Applegate. You’ve done nothing of accomplishment with your life, so I understand you don’t know the burden of responsibility, but in order for the scientific community to get things done, we need to build a consistent narrative."
+    mor "I’m trying to save the people of this world from starving, Applegate. You’ve done nothing of accomplishment with your life, so I understand that you don’t know the burden of responsibility, but in order for the scientific community to get things done, we need to build a consistent narrative."
 
-    mor"Lawmakers, corporate executives, all the various benefactors from whom scientific funding is granted—these people are obtuse, hiveminded demagogues. They can only be spurred to action when a crisis is too large to overcome. Look how they bend over themselves now, to save a species that’s demonstrably been in jeopardy for the last fifty years. They only act to save the bees when the bees are extinct."
+    mor "Lawmakers, corporate executives, all the various benefactors from whom scientific funding is granted—these people are obtuse, hiveminded demagogues. They can only be spurred to action when a crisis is too large to overcome. Look how they bend over themselves now, to save a species that’s demonstrably been in jeopardy for the last fifty years. They only act to save the bees when the bees are extinct."
 
     mor "This discovery—actual honeybees in the wild—it undermines the narrative we are building. The longer it takes humanity to come to terms with the fact that the bees are gone, the longer it takes for us to develop synthetic pollinators. The longer people will starve."
 
@@ -233,7 +244,7 @@ label scene4:
 
     "He sighs, shaking his head in disappointment."
 
-    mor "I don’t know why I bother explaining myself to you. At the end of the day, you’re just a cultist—a spoiled child who places their faith in faerie tales."
+    mor "I don’t know why I bother explaining myself to you. At the end of the day, you’re just a cultist—a spoiled child who places their faith in fairy tales."
 
     sib "Wait—Professor. Are you saying you’re not actually going to research the turnip? Research what connection it has to the bees?"
 
@@ -319,6 +330,8 @@ label scene4:
 
     stop sound fadeout 2
 
+    stop music fadeout 2
+
     "As the cacophonous atmosphere gives itself away to a deafening silence, the forest once again becomes an island in a far away land. The discordant buzzing of the bees, the pained cries of scientists and the shouting of the security goons fades away into the nothingness. It's as if the human interlopers had never existed at all."
 
     "Sybil kneels over me, the relief evident on my face now that the electricity no longer has me in it's painful grip. She grabs the wires and yanks the electrodes free and tosses them aside, concern furrowing her brow as she looks into my tired eyes."
@@ -329,11 +342,11 @@ label scene4:
 
     ash "For the record, that was not the type of energy that I prefer to experience."
 
+    play music "music/107.ogg" fadein 2
+
     "Sibyl manages a wry smirk."
 
     sib "Welcome back to reality. Shocking, I know."
-
-    play music "music/107.ogg" fadein 2
 
     "I can’t tell if it was the after-effects from the taser or the natural ebb and flow of the energy emanating from the turnip, but I feel a thrum, an almost imperceptible vibration starting to rise above the ambience of this place. My attention's drawn to the turnip, as though it were calling to me, voiceless yet with discernable intent."
 
@@ -420,7 +433,9 @@ label scene4:
 
     "Her words spring forth in such imperious tones that I must obey."
 
-    "The turnip’s glow intensifies, a radiance of life like that of the sun on the first warm day of all creation. The pale blue flowers slowly close their petals, dim, and fall. In their place remain small clusters of seeds, the gifts of life that so many plants have passed on as their inheritance, season after season, time and time again. The seeds swell and darken, with preternatural swiftness. Then they begin to fall into my cupped hands, a steady, gentle rain of promise for the next generation. For our future."
+    "The turnip’s glow intensifies, a radiance of life like that of the sun on the first warm day of all creation. The pale blue flowers slowly close their petals, dim, and fall. In their place remain small clusters of seeds, the gifts of life that so many plants have passed on as their inheritance, season after season, time and time again."
+
+    "The seeds swell and darken, with preternatural swiftness. Then they begin to fall into my cupped hands, a steady, gentle rain of promise for the next generation. For our future."
 
     hide flohopefulzoom
     show flotenderzoom 
@@ -560,7 +575,7 @@ label scene4:
 
     sib "I mean, when push came to shove, he wasn’t interested in having his hypothesis challenged. He wanted people moved out of his way so he could start rebuilding society in his own image."
 
-    ash "A world without bees... I’m not sure it would have been viable, but I certainly don’t think it could have been happy."
+    ash "A world without bees... I’m not sure that it would have been viable, but I certainly don’t think it could have been happy."
 
     "She ignores my interjection."
 
@@ -576,7 +591,7 @@ label scene4:
 
     sib "I never want to do that, Ashley. Ever."
 
-    sib "So I need to admit I don’t have all the answers. That a whole fuckload of things happened today that I may never fully understand."
+    sib "So I need to admit that I don’t have all the answers. That a whole fuckload of things happened today that I may never fully understand."
 
     sib "And I’m a scientist out of a job, anyway, so... Maybe the best thing I can do is stick with you. Find the right place for those seeds of yours. Figure out what I believe. Maybe even try and see that woman in the turnip you claim to have seen, or one like her."
 

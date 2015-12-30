@@ -2,27 +2,52 @@
 # Copyright 2015, Watercress
 # Created for the Lemmasoft Forums 2015 Secret Santa
 
-# Written by:
-# Blank
+## WRITING ##
+
+# Original Story Concept: Brythain
+
+## Scene Writing Contributions ##
+
+# Blank Mage
 # Brythain
-# Electro
 # EmpireRuled
 # Leaty
 # TheForeverLoneWolf
-# Tutty
-# Valjean
+# TuttyTheFruity
 
-# Art by:
-# Eddie
-# Erica
-# InstantRiot
+## ART ##
 
-# Music by:
-# Numb
-# Praxic
-
-# Coding by:
+## Backgrounds ##
 # DarkArcher
+# Eddie Osturkan
+# InstantRiot
+# TuttyTheFruity
+# Valuna
+# Vocastar
+
+## Spriting ##
+# Vocastar
+
+## Public Domain Resources ##
+
+# "Fure's Cabin interior", by Katmai National Park and Preserve (Flickr)
+# "ScienceImage 4042 Pine plantation with State forest in background 30 Kms south of Cardwell QLD Queensland forest service project", by Willem van Aken, CSIRO (Wiki Commons)
+# "Probably Mediterranean Turnip flower (3437277525)", by John Tann (Wiki Commons)
+# "Scenic view of forest habitat", by Public Domain Images 
+# "Bar La Perla", by verovera78 (Flickr) 
+
+## MUSIC ##
+
+# Lead Composer: Praxic
+# Music Contributions: Numb
+
+## CODING ##
+
+# Lead Coder: DarkArcher
+# Scripting Contributions: ElectroMancer
+
+
+
 
 # Now, for the fun stuff.
 

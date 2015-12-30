@@ -6,13 +6,19 @@ label scene3:
 
     scene grass with fade
 
-    play music "music/96LoopVer.ogg" fadein 2
+    play music "music/96IntroVer.ogg" fadein 2
+
+    queue music "music/96LoopVer.ogg"
 
     "When I awake, I realize quickly that I've ended up sleeping in much longer than I anticipated. Scrambling to get out of the tent, I sneak a peek at the flower."
+
+    show turnip with dissolve
 
     "..."
 
     ash "Still okay. Phew..."
+
+    hide turnip with dissolve
 
     "I let out a sigh of relief I wasn't fully aware was there. It'd be easy to spend the rest of the day keeping an eye on it. I have enough of an idea of what to expect; I'd have to be ready."
 
@@ -134,11 +140,13 @@ label scene3:
 
     ash "See ya." 
 
+    show turnip with dissolve
+
     "I continue to stare at the plant, observing its gentle swaying in the wind."
 
     nvl clear
 
-    nar "There's a lingering thought in the back of my head. The phenomenon of the multiplying bees reminds me of that dream from last night. Usually dreams are so spotty, inconsistent, cryptic, flippant and altogether pretty frivolous. They leave as quickly as they come, gone before you can understand its intricacies, its meeting. Like a snowflake melting in the palm of your hand, it eludes the grasp of critical thought in an instant."
+    nar "There's a lingering thought in the back of my head. The phenomenon of the multiplying bees reminds me of that dream from last night. Usually dreams are so spotty, inconsistent, cryptic, flippant and altogether pretty frivolous. They leave as quickly as they come, gone before you can understand its intricacies, its meaning. Like a snowflake melting in the palm of your hand, it eludes the grasp of critical thought in an instant."
 
     nvl clear
 
@@ -154,6 +162,8 @@ label scene3:
 
     sib "You, uh, getting a good look there, champ?"
 
+    hide turnip with dissolve
+
     "A familiar sarcastic voice drones from across the meadow."
 
     ash "That was a pretty quick survey. By the look on your face, you didn't have much luck either."
@@ -164,7 +174,7 @@ label scene3:
 
     sib "You didn't answer my question. You figure anything out about it yet?"
 
-    "I pause, considering the information I knew. With girls like Sibyl, you have to keep your cards close to your chest. On the other hand, we definitely have an understanding between one another. Still, I hardly believe she'll believe the body of information I collected. And it might spur her on to do something regrettable."
+    "I pause, considering the information I knew. With girls like Sibyl, you have to keep your cards close to your chest. On the other hand, we definitely have an understanding between one another. Still, I highly doubt she'll believe the body of information I collected. And it might spur her on to do something regrettable."
 
     ash "This flower is a rare specimen... the last of its kind, perhaps. You see how it's flowering? It must be near the end of its life, but it continues to live and breathe life. The bees are drawn to this flower, but..."
 
@@ -174,7 +184,7 @@ label scene3:
 
     "Her grip on her tool tightens."
 
-    sib "Well, if we just bring it to the lab, we'll just extract its seeds and grow some more! A hundred o' them, if we have to!"
+    sib "Well, if we just bring it to the lab, all we have to do is extract its seeds and grow some more! A hundred o' them, if we have to!"
 
     "I shake my head."
 
@@ -234,7 +244,15 @@ label scene3:
 
     sib "Later."
 
-    "Sibyl leaves, much more quietly than I would've anticipated. I take a look at the curious flower. I remember that if you talk to plants, it would help them grow. That snippet of folk wisdom probably existed for the faculties of lonely housewives for centuries, but... today, here, there's something more to it, I'm sure."
+    stop music fadeout 1
+
+    play music "music/Turnip Fairy Credits Sequence (Reminisce).ogg"
+
+    "Sibyl leaves, much more quietly than I would've anticipated. 
+
+    I take a look at the curious flower. I remember that if you talk to plants, it would help them grow. That snippet of folk wisdom probably existed for the faculties of lonely housewives for centuries, but... today, here, there's something more to it, I'm sure."
+
+    show turnip with dissolve
 
     "I gesture in Sibyl's direction."
 
@@ -284,9 +302,9 @@ label scene3part2:
 
     flo "They ride the horses of the sun, the hymenoptera, the wings of blessed union. They have been our messengers, our knights. And they perish. They die because they've lost all hope. And only I remain to offer them light—and I, I am failing."
 
-    "\"Who are you?\" I hear my own voice calling out in fear and ignorance. I'm seeking reassurance, and I need to understand."
+    "I hear my own voice calling out in fear and ignorance. I'm seeking reassurance, and I need to understand."
 
-    flo "Your poet Shakespeare once asked that question. \"Who is Sylvia? What is she, that all the swains adore her?\""
+    flo "Who am I?  Your poet Shakespeare once asked that question. \"Who is Sylvia? What is she, that all the swains adore her?\""
 
     show floworried
     with dissolve
@@ -319,9 +337,11 @@ label scene3part2:
 
     flo "I am Sylvia, last of this generation of the earth. I have waited long, tried to hold out a last glimmer of that hope. But there is next to no time left."
 
-    "I see the end. No! It mustn't end this way! I see steel locusts in a cloud of wings, eating everything, producing nothing. I see the motorised maggots of the human-engineered swarm: 'the bones picked clean and the clean bones gone.'"
+    nvl clear
 
-    "\"We shall be one with the man in the wind and the west moon,\" my magpie brain recalls from the words of the last bard of Wales. And then, nothing but the barrenness of the earth, as grey as the moon, and as empty."
+    nar "I see the end. No! It mustn't end this way! I see steel locusts in a cloud of wings, eating everything, producing nothing. I see the motorised maggots of the human-engineered swarm: 'the bones picked clean and the clean bones gone.'"
+
+    nar "\"We shall be one with the man in the wind and the west moon,\" my magpie brain recalls from the words of the last bard of Wales. And then, nothing but the barrenness of the earth, as grey as the moon, and as empty."
 
     hide flosweetsmile
     show flosmile

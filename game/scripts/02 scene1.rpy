@@ -1,10 +1,13 @@
 label scene1:
 
-    scene black with Pause(1)
+    scene black with fade 
+    with Pause(1)
 
     scene cabin with fade
 
-    play music "music/96LoopVer.ogg"
+    play music "music/96IntroVer.ogg"
+
+    queue music "music/96LoopVer.ogg"
 
     sib "Hey, I was watching that!"
 
@@ -80,7 +83,7 @@ label scene1part2:
 
     play music "music/120.ogg" fadein 2
 
-    scene forestoutskirts with fade
+    scene forestoutskirts with fade 
     with Pause(1)
 
     sib "I swear to God, if I end up contracting malaria because of you, I'll sue you."
