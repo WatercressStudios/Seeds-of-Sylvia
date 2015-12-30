@@ -78,6 +78,7 @@ image cabin = "bg/cabinint.png"
 # CGs
 image tv = "cg/tv.png"
 image turnip = "cg/turnip.png"
+image dream = "cg/dream.png"
 
 # VFX
 image watercress = "vfx/watercress.png"

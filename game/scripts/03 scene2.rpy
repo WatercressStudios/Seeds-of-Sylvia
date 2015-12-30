@@ -336,7 +336,7 @@ label scene2part3:
 
     scene black with Pause(1)
 
-    scene grassnight with fade
+    scene dream with fade
     
     play music "music/107.ogg" fadein 2
 

@@ -290,6 +290,8 @@ label scene3part2:
     
     play music "music/107.ogg" fadein 2
 
+    scene dream with fade
+
     "There's a shadow over all the earth's bright lands. Like a hawk, or like a floating seed, I feel a blight spread over all the world. I hear a voice cry out."
 
     flo "Where are the sisters? Where are the rings of light and power that once raised life towards the glory of the sun?"
