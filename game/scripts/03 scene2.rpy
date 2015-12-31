@@ -382,15 +382,25 @@ label scene2part3:
 
     "Something slides away in my head, as if offended. There's a moment of dislocation. Then, I turn over on the cold hard ground, and wake up."
 
+    scene black with fade
+
     "It's dark. There is no blue light, just the darkness before the dawn. I can't see. There's nothing to see. And yet 'see' seems incomplete for what I must do... which is what, exactly?"
 
     "I'm so tired. Something else makes me want to sleep, just a few more hours. Just a few..."
 
+    scene grassnight with fade
+
     "I sit up straight, hitting my head on... nothing. I'm not in the tent at all. I'm outside the tent, which I've bound to the ground facing the cardinal directions, its sealed entrance facing south. Is it morning yet? No. It's cold. What am I doing outside?"
+
+    scene turnip with fade
 
     "I unseal the tent, crawl back in, and try for a few more hours of sleep. On a sudden impulse, I briefly flash my maglite on. The flower's still there. It looks beautiful, and yet baleful; it looks sad, and yet hopeful. It's the last thought I have before I fall back into slumber."
 
+    scene black with fade
+
     ash "..."
+
+    scene dream with fade
 
     flo "There aren't many true blue flowers. And of those which are, many are air-headed, silly things. Some are purple, and inclined to melancholy and regret; some are spiteful, and depressed when not. There are very few of us indeed. And now, only one."
 
