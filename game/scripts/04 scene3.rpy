@@ -148,11 +148,7 @@ label scene3:
 
     nar "There's a lingering thought in the back of my head. The phenomenon of the multiplying bees reminds me of that dream from last night. Usually dreams are so spotty, inconsistent, cryptic, flippant and altogether pretty frivolous. They leave as quickly as they come, gone before you can understand its intricacies, its meaning. Like a snowflake melting in the palm of your hand, it eludes the grasp of critical thought in an instant."
 
-    nvl clear
-
     nar "And yet I remember the details of this dream perfectly, as foggy as they are. It's difficult to recall the shapes, to imagine any physical forms. But I can't convince myself it wasn't real; part of it feels like it's taken root in the recesses of my imagination, somehow."
-
-    nvl clear
 
     nar "I sit there, wondering about the meaning of it all. Blue fairies, blue turnips, and these elusive seeds. Were the seeds the key to solving this crisis?"
 
