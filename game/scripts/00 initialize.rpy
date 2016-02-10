@@ -82,10 +82,6 @@ image dream = "cg/dream.png"
 
 # VFX
 image watercress = "vfx/watercress.png"
-image credit1 = "vfx/credit1.png"
-image credit2 = "vfx/credit2.png"
-image credit3 = "vfx/credit3.png"
-image credit4 = "vfx/credit4.png"
 
 # Sprites
 image floafraid = "sprites/flo/afraid.png"

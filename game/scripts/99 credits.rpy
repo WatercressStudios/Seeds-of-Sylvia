@@ -2,6 +2,6 @@
 
     scene black
 
-    $ renpy.movie_cutscene("vfx/credits.ogv")
+    $ renpy.movie_cutscene("vfx/credits.webm")
 
     return
